@@ -1,0 +1,38 @@
+<html> 
+<head>
+	<link rel="stylesheet" text="text/html" href="style.css" />
+	<script type="text/javascript" src="http://yeap.narod.ru/global/js/jquery-1.1.3.1.min.js"></script>	
+	<script src="click.js"></script>	
+	<title>З новим роком, бабусю!!!</title>
+</head>
+<body>
+	<script type="text/javascript"> 
+	$(document).ready(function(){
+             $('#new_year').animate({'top':'10px'},1500); 
+			 $('#new_year2_1').animate({'top':'20px'},1500)
+				.click(function(){$('#text').html("<h1>HH</h1>")}); 
+			 $('#new_year2_2').animate({'top':'60px'},1500)
+				.click(function(){$('#text').html("<h1>HH</h1>")}); 
+			 $('#new_year2_3').animate({'top':'100px'},1500)
+				.click(function(){$('#text').html("<h1>HH</h1>")}); 		
+         });
+	</script>  
+	<h1 class="new_year" id="new_year">З новим роком, бабусю!</h1>
+	<table class="menu">
+		<tr class="new_year2" id="new_year2_1">
+		<td class="menu_td">Від твого сина</td>
+		</tr>
+		<tr class="new_year2" id="new_year2_2">
+		<td class="menu_td">Від твого внука</td>
+		</tr>
+		<tr class="new_year2" id="new_year2_3">
+		<td class="menu_td">Від твого чоловіка</td>
+		</tr>
+		
+	</table>
+	<div class="text" id="text"></div>
+    <audio autoplay>
+       <source src="hello.ogg">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>З новим роком, діду!!!</title>
+	<link rel="stylesheet" text="text/html" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- Підключаемо jquery -->
+</head>
+<body>
+	<script>
+	$(document).ready(function(){
+        $("#box").animate({marginLeft: "+=40.7%"}, 2000);
+		$("#box2").animate({marginLeft: "-=40.7%"}, 2000),
+		setTimeout(function() {
+		window.location.href = "index.html";
+		}, 3000);
+	});
+</script>
+<div id="box" style="height:50px;width:150px;background-color:red;text-align:right;font-size:20px;margin-top: 20%;">З новим роком,&nbsp</div>
+<div id="box2" style="height:50px;width:150px;background-color:red;margin-left:92%;margin-top:-50px;text-align:left;font-size:20px;" onclick="S()">&nbspдіду!</div>
+</body>
+</html>
